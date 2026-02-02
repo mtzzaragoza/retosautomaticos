@@ -1202,13 +1202,13 @@ def generar_retroalimentacion_r4(nombre_completo, primer_nombre, contenido):
     
     # === SALUDOS INICIALES VARIADOS ===
     saludos_iniciales = [
-        f"Excelente participacion, {primer_nombre}.",
-        f"Muy bien, {primer_nombre}, tu aportacion es valiosa.",
+        f"Excelente participación, {primer_nombre}.",
+        f"Muy bien, {primer_nombre}, tu aportación es valiosa.",
         f"Felicidades, {primer_nombre}, excelente trabajo.",
-        f"{primer_nombre}, tu participacion demuestra dedicacion.",
-        f"Hola {primer_nombre}, que buena contribucion al foro.",
-        f"Muy buena aportacion, {primer_nombre}.",
-        f"Gracias por tu participacion, {primer_nombre}.",
+        f"{primer_nombre}, tu participación demuestra dedicación.",
+        f"Hola {primer_nombre}, que buena contribución al foro.",
+        f"Muy buena aportación, {primer_nombre}.",
+        f"Gracias por tu participación, {primer_nombre}.",
         f"{primer_nombre}, tu trabajo refleja compromiso con el tema."
     ]
     comentarios.append(random.choice(saludos_iniciales))
@@ -1216,13 +1216,13 @@ def generar_retroalimentacion_r4(nombre_completo, primer_nombre, contenido):
     # === PRESENTACIÓN (variaciones) ===
     if any(palabra in contenido_lower for palabra in ["mi nombre es", "me presento", "soy", "tengo", "buenas", "hola", "saludos"]):
         frases_presentacion = [
-            "Me encanto tu presentacion al inicio, es importante conocernos.",
-            "Tu presentacion fue muy cordial y apropiada.",
-            "Agradezco tu presentacion, eso fortalece nuestra comunidad de aprendizaje.",
-            "Me gusto como te presentaste, es valioso saber quien esta detras de cada participacion.",
+            "Me encanto tu presentación al inicio, es importante conocernos.",
+            "Tu presentación fue muy cordial y apropiada.",
+            "Agradezco tu presentación, eso fortalece nuestra comunidad de aprendizaje.",
+            "Me gusto como te presentaste, es valioso saber quien esta detrás de cada participación.",
             "Tu saludo inicial fue muy amable y profesional.",
             "La manera en que te presentaste fue excelente.",
-            "Tu introduccion personal aporta calidez al foro."
+            "Tu introducción personal aporta calidez al foro."
         ]
         if random.random() < 0.85:  # 85% de probabilidad
             comentarios.append(random.choice(frases_presentacion))
@@ -1230,14 +1230,14 @@ def generar_retroalimentacion_r4(nombre_completo, primer_nombre, contenido):
     # === PROPOSICIONES SIMPLES (variaciones) ===
     if any(palabra in contenido_lower for palabra in ["proposición lógica simple", "proposiciones simples", "proposición simple", "proposición atómica", "atómica"]):
         frases_simples = [
-            "Tus definiciones sobre proposiciones logicas simples son muy claras y precisas.",
-            "Explicaste de manera excelente que es una proposicion simple.",
-            "Tu comprension de las proposiciones atomicas es evidente y bien fundamentada.",
+            "Tus definiciones sobre proposiciones lógicas simples son muy claras y precisas.",
+            "Explicaste de manera excelente que es una proposición simple.",
+            "Tu comprensión de las proposiciones atómicas es evidente y bien fundamentada.",
             "Las proposiciones simples quedaron muy bien explicadas en tu aporte.",
-            "Demuestras claridad al definir las proposiciones logicas simples.",
+            "Demuestras claridad al definir las proposiciones lógicas simples.",
             "Tu explicacion sobre proposiciones simples es clara y correcta.",
-            "El concepto de proposicion simple esta muy bien desarrollado.",
-            "Tus definiciones de proposiciones atomicas son precisas y completas."
+            "El concepto de proposición simple esta muy bien desarrollado.",
+            "Tus definiciones de proposiciones atómicas son precisas y completas."
         ]
         if random.random() < 0.9:  # 90% de probabilidad
             comentarios.append(random.choice(frases_simples))
@@ -1245,14 +1245,14 @@ def generar_retroalimentacion_r4(nombre_completo, primer_nombre, contenido):
     # === PROPOSICIONES COMPUESTAS (variaciones) ===
     if any(palabra in contenido_lower for palabra in ["proposición lógica compuesta", "proposiciones compuestas", "proposición compuesta", "molecular"]):
         frases_compuestas = [
-            "Explicaste muy bien las proposiciones compuestas y el uso de conectores logicos.",
-            "Tu analisis de las proposiciones moleculares es correcto y detallado.",
-            "Las proposiciones compuestas estan bien desarrolladas en tu participacion.",
+            "Explicaste muy bien las proposiciones compuestas y el uso de conectores lógicos.",
+            "Tu análisis de las proposiciones moleculares es correcto y detallado.",
+            "Las proposiciones compuestas estan bien desarrolladas en tu participación.",
             "Comprendes claramente como se forman las proposiciones compuestas.",
-            "Excelente explicacion sobre proposiciones compuestas y sus conectivos.",
+            "Excelente explicación sobre proposiciones compuestas y sus conectivos.",
             "Tu manejo de las proposiciones compuestas refleja buen estudio del tema.",
-            "Las proposiciones moleculares fueron abordadas con precision.",
-            "Tu comprension de como combinar proposiciones es notable."
+            "Las proposiciones moleculares fueron abordadas con precisión.",
+            "Tu comprensión de como combinar proposiciones es notable."
         ]
         if random.random() < 0.9:  # 90% de probabilidad
             comentarios.append(random.choice(frases_compuestas))
@@ -1261,10 +1261,10 @@ def generar_retroalimentacion_r4(nombre_completo, primer_nombre, contenido):
     num_puntos = contenido.count(".")
     if num_puntos > 15:
         frases_ejemplos_muchos = [
-            "Los ejemplos que compartiste son muy variados y demuestran una comprension profunda del tema.",
-            "Tu aportacion incluye numerosos ejemplos que enriquecen la discusion.",
+            "Los ejemplos que compartiste son muy variados y demuestran una comprensión profunda del tema.",
+            "Tu aportación incluye numerosos ejemplos que enriquecen la discusión.",
             "La cantidad de ejemplos que proporcionaste refleja tu dedicacion al tema.",
-            "Tus multiples ejemplos ayudan a comprender mejor los conceptos.",
+            "Tus múltiples ejemplos ayudan a comprender mejor los conceptos.",
             "La diversidad de ejemplos en tu participacion es impresionante.",
             "Has proporcionado una excelente variedad de ejemplos ilustrativos."
         ]
@@ -1273,8 +1273,8 @@ def generar_retroalimentacion_r4(nombre_completo, primer_nombre, contenido):
         frases_ejemplos_buenos = [
             "Los ejemplos que compartiste son apropiados y claros.",
             "Tus ejemplos ilustran bien los conceptos explicados.",
-            "Proporcionaste buenos ejemplos que ayudan a la comprension.",
-            "Los ejemplos que incluiste son pertinentes y utiles.",
+            "Proporcionaste buenos ejemplos que ayudan a la comprensión.",
+            "Los ejemplos que incluiste son pertinentes y útiles.",
             "Tus ejemplos son claros y bien elegidos.",
             "Los casos que presentaste facilitan el entendimiento."
         ]
@@ -1286,21 +1286,21 @@ def generar_retroalimentacion_r4(nombre_completo, primer_nombre, contenido):
     conectores_encontrados = [c for c in conectores if c in contenido_lower]
     if len(conectores_encontrados) >= 4:
         frases_conectores_muchos = [
-            "Identificaste correctamente el uso de diversos conectores logicos.",
-            "Tu manejo de los diferentes conectores logicos es excelente.",
-            "Demuestras dominio de los conectivos logicos fundamentales.",
+            "Identificaste correctamente el uso de diversos conectores lógicos.",
+            "Tu manejo de los diferentes conectores lógicos es excelente.",
+            "Demuestras dominio de los conectivos lógicos fundamentales.",
             "Aplicaste correctamente una gran variedad de conectores.",
             "El uso que haces de los conectivos es muy apropiado.",
-            "Muestras buen dominio de los operadores logicos."
+            "Muestras buen dominio de los operadores lógicos."
         ]
         comentarios.append(random.choice(frases_conectores_muchos))
     elif len(conectores_encontrados) >= 2:
         frases_conectores_algunos = [
-            "Usaste apropiadamente varios conectores logicos.",
-            "Los conectores logicos estan bien aplicados en tus ejemplos.",
+            "Usaste apropiadamente varios conectores lógicos.",
+            "Los conectores lógicos estan bien aplicados en tus ejemplos.",
             "Tu uso de conectivos es correcto y apropiado.",
-            "Los operadores logicos fueron bien utilizados.",
-            "Tus conectores logicos estan correctamente empleados."
+            "Los operadores lógicos fueron bien utilizados.",
+            "Tus conectores lógicos estan correctamente empleados."
         ]
         if random.random() < 0.75:  # 75% de probabilidad
             comentarios.append(random.choice(frases_conectores_algunos))
@@ -1308,14 +1308,14 @@ def generar_retroalimentacion_r4(nombre_completo, primer_nombre, contenido):
     # === EJEMPLOS COTIDIANOS (variaciones) ===
     if any(palabra in contenido_lower for palabra in ["celular", "llueve", "clase", "estudio", "trabajo", "examen", "computadora", "tierra", "sol", "luna", "agua", "auto", "carro", "casa", "familia", "comida", "perro", "gato", "telefono", "internet"]):
         frases_cotidianas = [
-            "Me gusto que uses ejemplos de la vida cotidiana, eso facilita la comprension.",
-            "Tus ejemplos cercanos a la realidad hacen el tema mas accesible.",
-            "Usar situaciones cotidianas para ejemplificar es una excelente estrategia.",
+            "Me gusto que uses ejemplos de la vida cotidiana, eso facilita la comprensión.",
+            "Tus ejemplos cercanos a la realidad hacen el tema más accesible.",
+            "Usar situaciones cotidianas para ejemplificar es una excelente estratégia.",
             "Los ejemplos de la vida diaria que elegiste son muy efectivos.",
             "Aprecio que hayas relacionado el tema con situaciones cotidianas.",
-            "Tus ejemplos practicos ayudan a conectar la teoria con la realidad.",
+            "Tus ejemplos practicos ayudan a conectar la teoría con la realidad.",
             "Es valioso que uses contextos familiares para explicar los conceptos.",
-            "Los ejemplos que tomaste de situaciones comunes son muy utiles."
+            "Los ejemplos que tomaste de situaciones comunes son muy útiles."
         ]
         if random.random() < 0.85:  # 85% de probabilidad
             comentarios.append(random.choice(frases_cotidianas))
@@ -1324,12 +1324,12 @@ def generar_retroalimentacion_r4(nombre_completo, primer_nombre, contenido):
     if any(palabra in contenido_lower for palabra in ["verdadero", "falso", "verdad", "valor de verdad"]):
         frases_verdad = [
             "Comprendes bien el concepto de valor de verdad en las proposiciones.",
-            "Tu analisis de los valores de verdad es correcto.",
+            "Tu análisis de los valores de verdad es correcto.",
             "Demuestras claridad al evaluar la veracidad de las proposiciones.",
             "El manejo de valores de verdad en tu trabajo es apropiado.",
-            "Tu comprension sobre verdadero y falso en logica es evidente.",
+            "Tu comprensión sobre verdadero y falso en lógica es evidente.",
             "Los valores de verdad fueron correctamente analizados.",
-            "Tu evaluacion de proposiciones verdaderas y falsas es acertada."
+            "Tu evaluación de proposiciones verdaderas y falsas es acertada."
         ]
         if random.random() < 0.8:  # 80% de probabilidad
             comentarios.append(random.choice(frases_verdad))
@@ -1337,10 +1337,10 @@ def generar_retroalimentacion_r4(nombre_completo, primer_nombre, contenido):
     # === ESTRUCTURA Y ORGANIZACIÓN ===
     if ":" in contenido or contenido.count("\n") > 5:
         frases_organizacion = [
-            "Tu participacion esta bien organizada y estructurada.",
-            "La manera en que organizaste tu informacion es clara.",
-            "Aprecio la estructura ordenada de tu aportacion.",
-            "Tu trabajo muestra una buena organizacion de ideas."
+            "Tu participación esta bien organizada y estructurada.",
+            "La manera en que organizaste tu información es clara.",
+            "Aprecio la estructura ordenada de tu aportación.",
+            "Tu trabajo muestra una buena organización de ideas."
         ]
         if random.random() < 0.6:  # 60% de probabilidad
             comentarios.append(random.choice(frases_organizacion))
@@ -1350,18 +1350,18 @@ def generar_retroalimentacion_r4(nombre_completo, primer_nombre, contenido):
     if longitud_contenido > 1800:
         frases_profundidad = [
             "Tu analisis es profundo y completo.",
-            "La extension y detalle de tu participacion es destacable.",
+            "La extensión y detalle de tu participación es destacable.",
             "Tu desarrollo del tema es exhaustivo y bien estructurado.",
             "La profundidad de tu aporte refleja un excelente estudio.",
-            "Tu trabajo demuestra una investigacion seria del tema.",
-            "El nivel de detalle en tu participacion es admirable."
+            "Tu trabajo demuestra una investigación seria del tema.",
+            "El nivel de detalle en tu participación es admirable."
         ]
         if random.random() < 0.7:  # 70% de probabilidad
             comentarios.append(random.choice(frases_profundidad))
     elif longitud_contenido > 1200:
         frases_buen_desarrollo = [
             "Tu desarrollo del tema es completo.",
-            "Tu aportacion tiene un buen nivel de detalle.",
+            "Tu aportación tiene un buen nivel de detalle.",
             "El contenido que compartiste es sustancial."
         ]
         if random.random() < 0.5:  # 50% de probabilidad
@@ -1369,24 +1369,24 @@ def generar_retroalimentacion_r4(nombre_completo, primer_nombre, contenido):
     
     # === MENSAJES FINALES MOTIVACIONALES (más variados) ===
     mensajes_finales = [
-        "Tu comprension del tema demuestra un excelente trabajo de estudio. Sigue asi.",
-        "Tu participacion refleja dedicacion y esfuerzo. Muy bien.",
-        "Excelente trabajo, tu aportacion enriquece el foro. Felicidades.",
-        "Tu analisis es muy completo y bien fundamentado. Continua con ese nivel.",
-        "Demuestras dominio del tema. Excelente aportacion.",
+        "Tu comprensión del tema demuestra un excelente trabajo de estudio. Sigue así.",
+        "Tu participación refleja dedicación y esfuerzo. Muy bien.",
+        "Excelente trabajo, tu aportación enriquece el foro. Felicidades.",
+        "Tu análisis es muy completo y bien fundamentado. Continúa con ese nivel.",
+        "Demuestras dominio del tema. Excelente aportación.",
         "Sigue participando con este nivel de calidad. Felicidades.",
         "Tu esfuerzo es evidente y muy valorado. Excelente.",
-        "Continua trabajando con esta dedicacion. Muy bien hecho.",
+        "Continúa trabajando con esta dedicación. Muy bien hecho.",
         "Tu aporte es significativo para el aprendizaje colectivo. Gracias.",
-        "Excelente nivel de analisis. Te felicito.",
+        "Excelente nivel de análisis. Te felicito.",
         "Tu compromiso con el tema es admirable. Adelante.",
-        "Muy buen trabajo. Sigue asi.",
-        "Tu participacion es de calidad. Felicidades.",
-        "Gracias por tu valiosa contribucion.",
+        "Muy buen trabajo. Sigue así.",
+        "Tu participación es de calidad. Felicidades.",
+        "Gracias por tu valiosa contribución.",
         "Tu trabajo refleja profesionalismo. Excelente.",
-        "Felicidades por tu dedicacion al tema.",
+        "Felicidades por tu dedicación al tema.",
         "Sigue con ese entusiasmo por aprender.",
-        "Tu aportacion es muy valiosa para todos."
+        "Tu aportación es muy valiosa para todos."
     ]
     
     # Agregar mensaje final (75% de probabilidad para no ser tan predecible)
