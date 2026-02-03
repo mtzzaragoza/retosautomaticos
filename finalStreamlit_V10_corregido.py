@@ -1216,10 +1216,10 @@ def generar_retroalimentacion_r4(nombre_completo, primer_nombre, contenido):
     # === PRESENTACIÓN (variaciones) ===
     if any(palabra in contenido_lower for palabra in ["mi nombre es", "me presento", "soy", "tengo", "buenas", "hola", "saludos"]):
         frases_presentacion = [
-            "Me encanto tu presentación al inicio, es importante conocernos.",
+            "Me encantó tu presentación al inicio, es importante conocernos.",
             "Tu presentación fue muy cordial y apropiada.",
             "Agradezco tu presentación, eso fortalece nuestra comunidad de aprendizaje.",
-            "Me gusto como te presentaste, es valioso saber quien esta detrás de cada participación.",
+            "Me gustó como te presentaste, es valioso saber quien esta detrás de cada participación.",
             "Tu saludo inicial fue muy amable y profesional.",
             "La manera en que te presentaste fue excelente.",
             "Tu introducción personal aporta calidez al foro."
@@ -1247,7 +1247,7 @@ def generar_retroalimentacion_r4(nombre_completo, primer_nombre, contenido):
         frases_compuestas = [
             "Explicaste muy bien las proposiciones compuestas y el uso de conectores lógicos.",
             "Tu análisis de las proposiciones moleculares es correcto y detallado.",
-            "Las proposiciones compuestas estan bien desarrolladas en tu participación.",
+            "Las proposiciones compuestas están bien desarrolladas en tu participación.",
             "Comprendes claramente como se forman las proposiciones compuestas.",
             "Excelente explicación sobre proposiciones compuestas y sus conectivos.",
             "Tu manejo de las proposiciones compuestas refleja buen estudio del tema.",
@@ -1263,9 +1263,9 @@ def generar_retroalimentacion_r4(nombre_completo, primer_nombre, contenido):
         frases_ejemplos_muchos = [
             "Los ejemplos que compartiste son muy variados y demuestran una comprensión profunda del tema.",
             "Tu aportación incluye numerosos ejemplos que enriquecen la discusión.",
-            "La cantidad de ejemplos que proporcionaste refleja tu dedicacion al tema.",
+            "La cantidad de ejemplos que proporcionaste refleja tu dedicación al tema.",
             "Tus múltiples ejemplos ayudan a comprender mejor los conceptos.",
-            "La diversidad de ejemplos en tu participacion es impresionante.",
+            "La diversidad de ejemplos en tu participación es impresionante.",
             "Has proporcionado una excelente variedad de ejemplos ilustrativos."
         ]
         comentarios.append(random.choice(frases_ejemplos_muchos))
@@ -1349,7 +1349,7 @@ def generar_retroalimentacion_r4(nombre_completo, primer_nombre, contenido):
     longitud_contenido = len(contenido)
     if longitud_contenido > 1800:
         frases_profundidad = [
-            "Tu analisis es profundo y completo.",
+            "Tu análisis es profundo y completo.",
             "La extensión y detalle de tu participación es destacable.",
             "Tu desarrollo del tema es exhaustivo y bien estructurado.",
             "La profundidad de tu aporte refleja un excelente estudio.",
